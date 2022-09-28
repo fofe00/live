@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: "p3gram-db.cxjhtvjw41mv.us-east-1.rds.amazonaws.com"
+  POSTGRES_DB: p3gramdev
+  AWS_BUCKET: p3-377751305286-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: p3user
+  JWT_SECRET: bonjour
+  URL: http://localhost:8100
